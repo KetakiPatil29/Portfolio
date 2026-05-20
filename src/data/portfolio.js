@@ -45,6 +45,36 @@ export const about = {
   ],
 }
 
+export const experience = [
+  {
+    id: 1,
+    role: 'Associate Software Engineer',
+    company: 'Wydcull Solutions ',
+    location: 'Dhule',
+    period: 'Sep 2025 – Present',
+    type: 'Full-time', // or 'Full-time', 'Freelance', 'Project'
+    tech: ['Java', 'Spring Boot', 'React', 'MySQL', 'REST APIs', 'Git'],
+    description: [
+      'Developed REST APIs using Java and Spring Boot',
+      'Built responsive UI components with React',
+      'Worked with MySQL for database design and queries',
+    ],
+  },
+  {
+    id: 2,
+    role: 'Research Analyst Intern',
+    company: 'REATIVEX Solutions',
+    location: 'Online',
+    period: 'May 2024 – Aug 2025',
+    type: 'Internship',
+    tech: ['Research', 'Data Analysis', 'MS Excel', 'Reports', 'Presentation'],
+    description: [
+      'Conducted technical research and data analysis to support product development',
+      'Authored detailed reports and presentations to guide strategic decisions',
+    ],
+  },
+]
+
 export const skills = [
   'Java',
   'Spring Boot',
