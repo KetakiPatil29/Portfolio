@@ -1,7 +1,7 @@
 export const site = {
   name: 'Ketaki Patil',
   role: 'Full Stack Developer',
-  tagline: 'Crafting scalable, responsive, and user-focused solutions.',
+  tagline: 'Crafting scalable, responsive, and user-focused solutions. ghjkl',
   photo: '/profile.jpg',  // add this line
   email: 'ketakipatil89@gmail.com',        // your real email
   phone: '+91 9673568788',               // your real phone
