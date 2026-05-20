@@ -366,6 +366,14 @@ main {
   color: var(--text);
 }
 
+.about__subtitle--spaced {
+  margin-top: 2.5rem;
+}
+
+.about__cert-tech {
+  margin-top: 0.75rem;
+}
+
 /* Stack on mobile */
 @media (max-width: 640px) {
   .about__education {

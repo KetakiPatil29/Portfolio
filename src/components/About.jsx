@@ -30,6 +30,40 @@ export default function About() {
             </li>
           ))}
         </ul>
+
+        {about.certifications?.length > 0 && (
+          <>
+            <h3 className="about__subtitle about__subtitle--spaced">
+              Courses & Certifications
+            </h3>
+            <ul className="about__education">
+              {about.certifications.map((cert) => (
+                <li
+                  key={`${cert.title}-${cert.year}`}
+                  className="about__edu-card"
+                >
+                  <div className="about__edu-header">
+                    <h4>{cert.title}</h4>
+                    <span className="about__edu-year">{cert.year}</span>
+                  </div>
+                  <p className="about__edu-field">{cert.type}</p>
+                  <p className="about__edu-school">{cert.provider}</p>
+
+                  {cert.tech?.filter(Boolean).length > 0 && (
+                    <>
+                      <p className="experience__tech-label">Skills</p>
+                      <ul className="experience__tech about__cert-tech">
+                        {cert.tech.filter(Boolean).map((t) => (
+                          <li key={t}>{t}</li>
+                        ))}
+                      </ul>
+                    </>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
       </div>
     </section>
   )

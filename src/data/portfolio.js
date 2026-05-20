@@ -43,6 +43,23 @@ export const about = {
     //   year: '2018 – 2020',
     // },
   ],
+  certifications: [
+    {
+      title: 'Java Full Stack Development Course',
+      provider: 'Pentagon Space, Bangalore',
+      year: '2023 – 2024',
+      type: 'Course',
+      tech: ['Java', 'Spring Boot', 'React', 'MySQL', 'REST APIs', 'HTML', 'CSS', 'JavaScript'],
+    },
+    {
+      title: 'Web Developer Internship',
+      provider: 'Vibaas Technologies, Pune',
+      year: '2022',
+      type: 'Internship',
+      tech: ['HTML', 'CSS', 'JavaScript', 'React', 'Git', 'Responsive Design'],
+    },
+  ],
+  
 }
 
 export const experience = [
