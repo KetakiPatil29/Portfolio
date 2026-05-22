@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { site } from '../data/portfolio'
 import { HiMail, HiPhone, HiLocationMarker } from 'react-icons/hi'
-import { FaLinkedin } from 'react-icons/fa'
+import { FaLinkedin, FaGithub } from 'react-icons/fa'
 
 export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', message: '' })
@@ -46,6 +46,13 @@ export default function Contact() {
       label: 'LinkedIn',
       value: 'Connect on LinkedIn',
       href: site.social.linkedin,
+      external: true,
+    },
+    {
+      icon: <FaGithub />,
+      label: 'GitHub',
+      value: 'github.com/KetakiPatil29',
+      href: site.social.github,
       external: true,
     },
     {
